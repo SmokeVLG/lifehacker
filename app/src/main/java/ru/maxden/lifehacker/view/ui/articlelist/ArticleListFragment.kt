@@ -9,7 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.ankit.trendinggit.databinding.FragmentArticleListBinding
+import com.maxden.lifehacker.databinding.FragmentArticleListBinding
 import ru.maxden.lifehacker.view.adapter.ArticleListAdapter
 import kotlinx.android.synthetic.main.fragment_article_list.*
 import org.jetbrains.anko.longToast
