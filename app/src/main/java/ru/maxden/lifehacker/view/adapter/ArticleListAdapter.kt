@@ -3,7 +3,7 @@ package ru.maxden.lifehacker.view.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.ankit.trendinggit.databinding.ViewArticleListItemBinding
+import com.maxden.lifehacker.databinding.ViewArticleListItemBinding
 import ru.maxden.lifehacker.model.pojo.ArticleItem
 import ru.maxden.lifehacker.view.adapter.viewHolders.ArticleListViewHolder
 import ru.maxden.lifehacker.view.ui.articlelist.ArticleListViewModel

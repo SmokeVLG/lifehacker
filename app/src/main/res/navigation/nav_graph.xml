@@ -18,8 +18,7 @@
         android:name="ru.maxden.lifehacker.view.ui.articledetail.ArticleDetailFragment"
         android:label="Описание статьи">
         <argument
-            android:name="url"
-            android:defaultValue="https://www.github.com"
+            android:name="content"
             app:argType="string" />
     </fragment>
 </navigation>

@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.fragment.app.Fragment
-import com.ankit.trendinggit.R
+import com.maxden.lifehacker.R
 import kotlinx.android.synthetic.main.fragment_article_detail.*
 import org.jetbrains.anko.sdk27.coroutines.onClick
 
@@ -22,12 +22,12 @@ class ArticleDetailFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val url = arguments?.let { ArticleDetailFragmentArgs.fromBundle(it).url }
+        val content = arguments?.let { ArticleDetailFragmentArgs.fromBundle(it).content }
 
         setupWebView()
         setClickListeners()
 
-        article_web_view.loadUrl(url!!)
+        article_web_view.loadData(content!!, "text/html", "UTF-8");
     }
 
     private fun setClickListeners() {
